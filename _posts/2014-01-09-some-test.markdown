@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Some Test I Sometimes Play with"
+date:   2014-01-09 18:22:58
+categories: some
+excerpt: If you don’t like the automatically-generated post excerpt, it can be overridden by adding excerpt...
+---
+
+blah blah blah, ghosts and stuff
+
+If you don’t like the automatically-generated post excerpt, it can be overridden by adding excerpt to your post’s YAML front-matter. Completely disable it by setting your excerpt_separator to "".
+
+Jekyll also has built-in support for syntax highlighting of code snippets using Pygments, and including a code snippet in any post is easy. Just use the dedicated Liquid tag as follows:
