@@ -1,16 +1,65 @@
----
-layout: default
-title: Cesar Says Cheers
----
-
-<div id="home">
-
-    {% for post in site.posts %}
-     <div class="postHead">
-		<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		<h3 class="meta menuItem">{{ post.date | date_to_long_string }}</h3>
-	</div>
-	<p>{{ post.excerpt }}</p>
-	{% endfor %}
-    
-</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cesar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/tachyons.css">
+	</head>
+	<body class=""> 
+		<header class="pv3 w-80 center">
+			<nav class="dt w-100 border-box pv3"">
+				<a class="link hover-blue black f5 f4-ns ttu fw4 tracked sans-serif v-mid w-50 " href="index.html" title="home">Cesar Niculescu</a>		 
+				<div class="dtc v-mid w-50 tr"> 
+					<a class="link hover-blue silver f6 ttu fw4 tracked dib mr3 mr4-ns sans-serif" href="about.html" title="about">About</a>
+				</div>
+			</nav>
+		</header>	  
+		<section class="cf">
+			<div class="fl w-50 overflow-hidden">
+				<a href="vag.html" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/fog.png);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/gallery.png);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-100 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/bee.jpg);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/chn.jpg);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/lake.jpg);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>	
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/chn.jpg);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/fog.png);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/bee.jpg);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>
+			<div class="fl w-50 w-25-ns overflow-hidden">
+				<a href="" class="db aspect-ratio aspect-ratio--1x1 grow">
+					<span style="background-image:url(photos/gallery.png);" class="bg-center cover aspect-ratio--object"></span>
+				</a>
+			</div>  
+		</section>
+	</body>
+</html>
