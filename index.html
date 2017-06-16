@@ -1,157 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>cesarn.me</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/tachyons.min.css">
-  <style>
-  .blur {
-    -webkit-backdrop-filter: saturate(1.8) blur(20px);
-    -webkit-transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1), cubic-bezier(0.28, 0.11, 0.32, 1);background-color: rgba(255, 255, 255, 0.701961)
-  }
-  </style>
-  <body class="w-100 sans-serif bg-near-white">
+<head>
+    <meta charset='utf-8' />
+    <title>cesarn.me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+</head>
+<body class="sans-serif">
+	<header class="pa3 pa4-ns">
+		<a class="link dim black f6 f5-ns mr3" href="index.html" title="Home">Cesar Niculescu</a> 
+		<nav>
+		  <a class="link dim black f6 f5-ns dib mr3" href="index.html" title="Home">Catalogue</a>
+		  <p class="f6 f5-ns dib mr3"> - </p>
+		  <a class="link dim gray f6 f5-ns dib mr3" href="#" title="About">About</a>
+		  <p class="f6 f5-ns dib mr3"> - </p>
+		  <a class="link dim gray f6 f5-ns dib mr3" href="#" title="News">News</a>
+		</nav>
+	</header>
 
-	<header class="bg-white-80 fixed w-100 mb5 ph3 pv2 pv3-ns ph4-m ph5-l z-4 blur">
-	  <nav class="mw8 center f6 fw6 ttu tracked">
-	    <a class="link dim black dib mr4" href="#" title="Home">Cesar N.ME</a>
-	    <a class="fr link normal dim black dib" href="about.html" title="Store">?</a>
-	  </nav>
-	</header>  
+	<section id="grid">
+	  <a href="bodyspace.html" class="z-0 fl w-100 w-50-m w-25-l link overflow-hidden">
+	    <div role="img" class="dim aspect-ratio--5x7 " style="background:url(img/grid/bodyspace.jpg) no-repeat center center; background-size: cover;"><p class="z-1 absolute pa3 pa4-ns black">Body and Space</p></div>
+	  </a>
+	  <a href="vartgallery.html" class="z-0 fl w-100 w-50-m w-25-l link overflow-hidden">
+	    <div role="img" class="dim aspect-ratio--5x7 " style="background:url(img/grid/vartgallery.jpg) no-repeat center center; background-size: cover;"><p class="z-1 absolute pa3 pa4-ns white">Vancouver Art Gallery</p></div>
+	  </a>	  
+	  <a href="stpaulhospital.html" class="z-0 fl w-100 w-50-m w-25-l link overflow-hidden">
+	    <div role="img" class="dim aspect-ratio--5x7 " style="background:url(img/grid/hospital.jpg) no-repeat center center; background-size: cover;"><p class="z-1 absolute pa3 pa4-ns white">St Paul's Hospital</p></div>
+	  </a>
+	  <a href="pollinator.html" class="z-0 fl w-100 w-50-m w-25-l link overflow-hidden">
+	    <div role="img" class="dim aspect-ratio--5x7 " style="background:url(img/grid/pollinator.jpg) no-repeat center center; background-size: cover;"><p class="z-1 absolute pa3 pa4-ns white">Monster Aurator</p></div>
+	  </a>	  	  	  
+	</section>
 
-<section class="bg-white mb5-ns">
-      <article class="mw8 center pa3">
-      <h3 class="f6 ttu tracked mt4 mt6-ns">Hello,</h3>
-      <div>
-        <p class="measure f6 f5-ns lh-copy mid-gray">
-          I'm Cesar, a 2017 M-Arch Graduate from UBC. <br>
-          Below is a few of my recent projects. Enjoy.
-          For more information, you can reach me at <a  class="black link hover-mid-gray" href="mailto:cniculescu@me.com">cniculescu@me.com</a>.
-        </p>
-      </div>
-    </article>
-  </section>    
-  
-  <section class="mw8 center">
-
-    <a href="vag.html">
-      <section class="cf mt3 bg-white">
-        <div class="fl w-100 w-25-s w-25-m w-25-l">
-          <div class="pa3 pa4-ns h6-ns">
-            <h3 class="f6 normal ttu tracked mt4-ns gold">Design</h3>
-            <h4 class="f6 normal mb4 dark-gray">February 28, 2017</h4>
-            <h2 class="f3 fw5 dark-gray">Vancouver Art Gallery Proposal</h2>
-          </div>
-        </div>
-        <div class="fl w-100 w-75-s w-75-m w-75-l grow shadow-2">
-          <div class="pv5 h5 h6-ns z1" style="background: url(photos/gallery.jpg) no-repeat center center; background-size: cover;"></div>
-        </div>      
-      </section>
-    </a>
-
-    <a href="">
-      <section class="cf mt3 bg-black-90">
-        <div class="fl w-100 w-50-m w-25-l">
-            <div class="pa3 pa4-ns h6-ns">
-              <h3 class="f6 normal ttu tracked mt4-ns light-green">Fabrication</h3>
-              <h4 class="f6 normal mb4 light-silver">February 28, 2017</h4>
-              <h2 class="f3 fw5 near-white">3D-Printed Pollinator House</h2>
-            </div>
-          </div>
-          <div class="fl w-100 w-50-m w-75-l grow shadow-2">
-            <div class="pv5 h5 h6-ns z1" style="background: url(photos/pollinator.jpg) no-repeat center center; background-size: cover;"></div>
-          </div>      
-      </section>
-    </a>      
-
-    <a href="http://cesarn.me/2016HR/">
-      <section class="cf mt3 mb5">
-          <div class="fl bg-white w-100 w-50-m w-20-l">
-            <div class="pa3 pa4-ns h6-ns">
-              <h3 class="f6 normal ttu tracked mt4-ns light-purple">Data</h3>
-              <h4 class="f6 normal mb4 dark-gray">March 1, 2017</h4>
-              <h2 class="f3 fw5 dark-gray">Representing my Heart Rate</h2>
-            </div>
-          </div>
-          <div class="fl w-100 w-50-m w-30-l pr3-ns pb3 grow">
-            <div class="pv5 h5 h6-ns z1" style="background: url(photos/heart.png) no-repeat center center; background-size: cover;"></div>
-          </div>
-    </a>   
-
-    <a href="">
-        <div class="fl bg-white w-100 w-50-m w-25-l">
-          <div class="pa3 pa4-ns h6-ns">
-            <h3 class="f6 normal ttu tracked mt4-ns gold ">Design</h3>
-            <h4 class="f6 normal mb4 dark-gray">March 1, 2017</h4>
-            <h2 class="f3 fw5 dark-gray">Treehouse Structural Design Competition</h2>
-          </div>
-        </div>
-        <div class="fl w-100 w-50-m w-25-l grow shadow-2">
-          <div class="pv5 h5 h6-ns z1" style="background: url(photos/treehouse.jpg) no-repeat center center; background-size: cover;">
-          </div>
-        </div>
-      </div>
-    </section>
-</a>  
-
-
-    </section>
-  </body>
-
-  <footer class="pa4 ph7-ns pt6 pb5 bg-dark-gray white-70">
-  <div class="dt dt--fixed w-100" >
-    <div class="dn dtc-ns v-mid">
-      <p class="f7 light-silver dib pr3 mb3">Made in 2017</p>
-    </div>
-    <div class="db dtc-ns light-gray tc tr-ns v-mid">
-      <a href="https://www.facebook.com/" class="link dim dib mr3 light-silver" title="Impossible Labs on Facebook">
-        <svg class="db w2 h2" data-icon="facebook" viewBox="0 0 32 32" fill="currentColor">
-          <title >facebook icon</title>
-          <path d="M8 12 L13 12 L13 8 C13 2 17 1 24 2 L24 7 C20 7 19 7 19 10 L19 12 L24 12 L23 18 L19 18 L19 30 L13 30 L13 18 L8 18 z"
-          ></path>
-        </svg>
-      </a>
-
-      <a href="https://instagram.com/" class="link dim dib mr3 light-silver">
-        <svg class="db w2 h2" data-icon="instagram" viewBox="0 0 16 16"
-          fill="currentColor" >
-          <title >instagram icon</title>
-          <path d="M8 0C5.827 0 5.555.01 4.702.048 3.85.088 3.27.222 2.76.42c-.526.204-.973.478-1.417.923-.445.444-.72.89-.923 1.417-.198.51-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8s.01 2.445.048 3.298c.04.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.72 1.417.923.51.198 1.09.333 1.942.372.853.04 1.125.048 3.298.048s2.445-.01 3.298-.048c.852-.04 1.433-.174 1.942-.372.526-.204.973-.478 1.417-.923.445-.444.72-.89.923-1.417.198-.51.333-1.09.372-1.942.04-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.852-.174-1.433-.372-1.942-.204-.526-.478-.973-.923-1.417-.444-.445-.89-.72-1.417-.923-.51-.198-1.09-.333-1.942-.372C10.445.008 10.173 0 8 0zm0 1.44c2.136 0 2.39.01 3.233.048.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.01 2.39-.048 3.233c-.036.78-.166 1.203-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.844.038-1.097.047-3.233.047s-2.39-.01-3.233-.048c-.78-.036-1.203-.166-1.485-.276-.374-.145-.64-.318-.92-.598-.28-.28-.453-.546-.598-.92-.11-.282-.24-.705-.276-1.485C1.45 10.39 1.44 10.136 1.44 8s.01-2.39.048-3.233c.036-.78.166-1.203.276-1.485.145-.374.318-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276C5.61 1.45 5.864 1.44 8 1.44zm0 2.452c-2.27 0-4.108 1.84-4.108 4.108 0 2.27 1.84 4.108 4.108 4.108 2.27 0 4.108-1.84 4.108-4.108 0-2.27-1.84-4.108-4.108-4.108zm0 6.775c-1.473 0-2.667-1.194-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667 0 1.473-1.194 2.667-2.667 2.667zm5.23-6.937c0 .53-.43.96-.96.96s-.96-.43-.96-.96.43-.96.96-.96.96.43.96.96z"
-          ></path>
-        </svg>
-      </a>
-
-      <a href="https://twitter.com/" class="link dim dib mr3 light-silver">
-        <svg class="db w2 h2" data-icon="twitter" viewBox="0 0 32 32"
-          fill="currentColor" >
-          <title >twitter icon</title>
-          <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"
-          ></path>
-        </svg>
-      </a>
-      <a href="https://www.linkedin.com/company/" class="link dim dib light-silver">
-        <svg class="db w2 h2" x="0px" y="0px" viewBox="0 0 48 48" >
-          <linearGradient gradientUnits="userSpaceOnUse" x1="23.9995"
-            y1="0" x2="23.9995" y2="48.0005" >
-            <stop offset="0" ></stop>
-            <stop offset="1" ></stop>
-          </linearGradient>
-          <path fill="currentColor" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6 c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"
-          ></path>
-          <g >
-            <g >
-              <path fill="#333333" d="M15.731,11.633c-1.608,0-2.658,1.083-2.625,2.527c-0.033,1.378,1.018,2.494,2.593,2.494 c1.641,0,2.691-1.116,2.691-2.494C18.357,12.716,17.339,11.633,15.731,11.633z M13.237,35.557h4.988V18.508h-4.988V35.557z M31.712,18.748c-1.595,0-3.222-0.329-4.956,2.36h-0.099l-0.087-2.599h-4.417c0.065,1.411,0.074,3.518,0.074,5.52v11.529h4.988 v-9.854c0-0.46,0.065-0.919,0.196-1.248c0.328-0.919,1.149-1.871,2.527-1.871c1.805,0,2.527,1.411,2.527,3.479v9.494h4.988V25.439 C37.455,20.713,34.993,18.748,31.712,18.748z"
-              ></path>
-            </g>
-          </g>
-        </svg>
-      </a>
-
-    </div>
-  </div>
-  <div class="db dn-ns">
-    <p class="f7 light-silver mt4 tc">
-      Made in 2017
-    </p>
-  </div>
-</footer>
+</body>
 </html>
